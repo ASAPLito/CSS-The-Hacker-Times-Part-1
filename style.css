@@ -18,7 +18,7 @@ h1 {
     text-align: center;
 }
 
-h2, h3 {
+h2, h3, h4 {
     font-family: Roboto Slab;
 }
 
@@ -41,7 +41,7 @@ ul {
 
 li {
     display: inline;
-    padding: 0.25em;
+    margin: 0.25em;
 }
 
 a {
@@ -53,4 +53,20 @@ a {
 nav {
     border-top: 1px solid #777;
     border-bottom: 1px solid #777;
+}
+
+main {
+    border-bottom: 1px solid #777;   
+}
+
+.more-articles {
+    display: inline-flex;
+    width: 40%;
+    margin: 1em;
+    padding: 1em;
+    align-content: flex-end;
+}
+
+section {
+    margin: 1em;
 }
